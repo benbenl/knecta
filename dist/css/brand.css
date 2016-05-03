@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+  background:#F9FAFC;
+      font-size: 1rem;
+          line-height: 1.5rem;
+          color:#19242D;
+}
+div {
+    display: block;
+}
+
+.row-space-1 {
+	margin-bottom: 6.25px
+}
+.row-space-top-1 {
+	margin-top: 6.25px
+}
+.row-space-2 {
+	margin-bottom: 12.5px
+}
+.row-space-top-2 {
+	margin-top: 12.5px
+}
+.row-space-3 {
+	margin-bottom: 18.75px
+}
+.row-space-top-3 {
+	margin-top: 18.75px
+}
+.row-space-4 {
+	margin-bottom: 25px
+}
+.row-space-top-4 {
+	margin-top: 25px
+}
+.row-space-5 {
+	margin-bottom: 31.25px
+}
+.row-space-top-5 {
+	margin-top: 31.25px
+}
+.row-space-6 {
+	margin-bottom: 37.5px
+}
+.row-space-top-6 {
+	margin-top: 37.5px
+}
+.row-space-7 {
+	margin-bottom: 43.75px
+}
+.row-space-top-7 {
+	margin-top: 43.75px
+}
+.row-space-8 {
+	margin-bottom: 50px
+}
+.row-space-top-8 {
+	margin-top: 50px
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25);
+    padding: 2rem 2rem 1rem;
+    margin: 0 auto 2rem;
+    position: relative;
+    border: 1px solid #e8e8e8;
+}
+.large_bottom_padding {
+    padding-bottom: 2rem!important;
+}
+
+.no_right_padding {
+    padding-right: 0!important;
+}
+.no_left_margin {
+    margin-left: 0!important;
+}
+.margin_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.top_margin {
+    margin-top: 1rem!important;
+}
+.large_bottom_margin {
+    margin-bottom: 2rem!important;
+}
+.full_max_width {
+    max-width: 100%;
+}
+.block {
+    display: block!important;
+}
+.logo_block {
+  
+  border-radius:5px;
+  display:table;
+  
+  font-size:14px;
+  width:100%;
+
+}
+.logo_block_wht {
+  border: solid 1px #d3d3d3;
+  background:#fff;
+  color:#d3d3d3
+}
+.logo_block_dash {
+  border: dashed 1px #d3d3d3;
+  background:#fff;
+  color:#d3d3d3
+}
+.logo_block_grey {
+  background:#d3d3d3;
+  color:#fff;
+}
+.logo_block_pink {
+  background:#FDB9BB;
+  color:#fff;
+}
+.logo_block_long {
+    height:140px;
+  min-width:280px;
+}
+.logo_block_square {
+    height:140px;
+    max-height:140px;
+  min-width:140px;
+}
+
+.logo_block .logo, .cd_box .logo {
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px;
+  width:100%;
+}
+
+.cd_box {
+  height:320px;
+  min-height:320px;
+  display:table;
+  width:100%;
+  border:1px solid #d3d3d3;
+  border-radius:10px;
+}
+.bg_wht {
+  background:#fff;
+}
+.bg_blue {
+  background:#3699f3;
+}
+.app_icon {
+  border:1px solid #d3d3d3;
+  border-radius:10%;
+  margin:10px;
+}
+
+
+
+/*Master Head*/
+.masthead {
+    background: #3699f3;
+    padding: 100px 0;
+    position: relative;
+    z-index: 2;
+}
+.masthead .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.masthead img {
+    position: relative;
+    bottom: 75px;
+    left: 5px;
+}
+.masthead .masthead-title {
+    
+    font-size: 30px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.masthead .masthead-title small {
+    
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 4px;
+}
+@media (min-width: 1000px) {
+  .masthead .container {
+    width: 1170px;
+  }
+  .masthead {
+    padding: 265px 0;
+  }
+  .masthead .masthead-title {
+    font-size: 80px;
+  }
+  .masthead .masthead-title small {
+    font-size: 30px;
+  }
+  .doc-section {
+    margin-bottom: 80px;
+  }
+  .doc-section p {
+    font-size: 16px;
+  }
+}
+
+
+
+/*Collo Palette*/
+
+.palette-dodger-blue {
+  background-color: #3699f3
+}
+.palette-sail {
+  background-color: #9bccf9
+}
+.palette-carnation {
+  background-color: #F8696D
+}
+.palette-sundown {
+  background-color: #FEBABC
+}
+.palette-bunker {
+  background-color: #19242D
+}
+.palette-cello {
+  background-color: #33475A
+}
+.palette-hoki {
+  background-color: #5A7E9F
+}
+.palette-casper {
+  background-color: #AEC2D5
+}
+.palette-athens-gray {
+  background-color: #EEF2F6
+}
+.palette-alice-blue {
+  background-color: #F9FAFC
+}
+
+.palette-athens-gray, .palette-alice-blue {
+  color:#19242D
+}
